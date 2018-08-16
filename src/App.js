@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+//import SVGData from './components/svgdata'
+//import DataForm from './components/data-form'
+import LoadSVG from './components/load-svg'
+import ShowSVG from './components/show-svg'
+import ShowDemo from './components/show-demo'
+
+//import SVGLines from './components/svg-lines'
+//import SVGNode from './svgnodes/svg-node'
 
 class App extends Component {
   render() {
@@ -10,9 +18,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <LoadSVG />
+        <ShowSVG />
+        <ShowDemo />
       </div>
     );
   }
