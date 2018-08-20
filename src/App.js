@@ -9,6 +9,7 @@ import ShowDemo from './components/show-demo'
 
 //import SVGLines from './components/svg-lines'
 //import SVGNode from './svgnodes/svg-node'
+import SVGAST from './svgnodes/svg-ast'
 
 class App extends Component {
   render() {
@@ -21,6 +22,9 @@ class App extends Component {
         <LoadSVG />
         <ShowSVG />
         <ShowDemo />
+        <svg width='400' height='300'>
+          <path d={<SVGAST />} />
+        </svg>
       </div>
     );
   }

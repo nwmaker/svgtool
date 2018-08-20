@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://nwmaker.github.io/svgtool",
   "dependencies": {
+    "path-ast": "^1.1.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.4",
