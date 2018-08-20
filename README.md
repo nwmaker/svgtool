@@ -12,7 +12,9 @@ Just run ```yarn run deploy```
 ## notes 
 
 * It is easy to display SVG and show its data. But it is hard to make this interactive. 
-
+* To make the path editable, using one svg path parser is one way to go.
+* This [svgpath](https://github.com/aydos/svgpath) is very close to what I am looking for.
+ 
 ## reference
 
 * [A collection of pointers](https://css-tricks.com/tools-visualize-edit-svg-paths-kinda/)
@@ -47,13 +49,11 @@ Just run ```yarn run deploy```
 * [SwiftSVG](https://github.com/mchoe/SwiftSVG)
 
 ### tool
-
 * [fabric.js](https://github.com/fabricjs/fabric.js)
 * [fabric.js demo](http://fabricjs.com/)
-
 * [svgpath](https://github.com/aydos/svgpath)
 * [Demo](https://aydos.com/svgedit/)
 
-### 
-* [](https://github.com/memononen/nanosvg)
+### others 
+* [nanosvg](https://github.com/memononen/nanosvg)
 
