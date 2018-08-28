@@ -1,8 +1,20 @@
 # SVGTool
 
+Expand this to a more ambitious scope:
+
 * [X] load svg data
 * [X] display the svg with data side by side
 * [ ] click the path to highlight the data segment (path)
+* [ ] FE: SVG editor
+* [ ] FE: Gerber viewer
+* [ ] FE: offline storage
+* [ ] FE: UX design
+* [ ] FE/BE: account manager
+* [ ] BE: SVG to Gerber converter
+* [ ] BE: payment integration
+* [ ] BE: API to pcb manufacturing, different?
+* [ ] BE: online storage
+* [ ] FE/BE: secuity
 
 ## setup with [Create React App](https://github.com/facebookincubator/create-react-app)
 
@@ -13,8 +25,28 @@ Just run ```yarn run deploy```
 
 * It is easy to display SVG and show its data. But it is hard to make this interactive. 
 * To make the path editable, using one svg path parser is one way to go.
-* This [svgpath](https://github.com/aydos/svgpath) is very close to what I am looking for.
- 
+* This [svgpath](https://github.com/aydos/svgpath) is close to what I am looking for.
+
+## research: SVG editor
+
+* [svgedit](https://github.com/SVG-Edit/svgedit)
+* [Method-Draw](https://github.com/duopixel/Method-Draw) a fork of the above, bit simplified
+* [react svg editor](https://github.com/interstellerS/svgEditor)
+* [Paths](https://github.com/jxnblk/paths) svg path parser AST
+* [pedanticsvg](https://github.com/ashmind/pedanticsvg) SVG code and shape side-by-side 
+* [Peter Collingridge SVG Editor + Optimizer](http://www.petercollingridge.appspot.com/svg-editor)
+* [Draw SVG](http://www.drawsvg.org/drawsvg.html)
+* [Vecteezy](https://www.vecteezy.com/editor)
+* [Boxy SVG](https://boxy-svg.com/app)
+* [Vector Paint](http://vectorpaint.yaks.co.nz/)
+* [SVG.js, snap.svg, raphael, paper.js]
+* [SVGOMG](https://jakearchibald.github.io/svgomg/)
+
+## research: SVG converter
+
+* [CairoSVG](https://cairosvg.org/) SVG1.1 to PNG, PDF, PS, and SVG converter
+
+
 ## reference
 
 * [A collection of pointers](https://css-tricks.com/tools-visualize-edit-svg-paths-kinda/)
